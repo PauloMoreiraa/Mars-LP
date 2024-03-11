@@ -19,7 +19,7 @@ A landing page oferece uma visão detalhada sobre a exploração humana de Marte
 2. Abra o arquivo `index.html` em seu navegador para visualizar a landing page.
 3. Explore os diferentes elementos e recursos disponíveis na página para aprender mais sobre Marte e sua exploração.
 
-Você também pode acessar a landing page diretamente clicando [aqui](paulomoreiraa.github.io/Mars-LP) para ver o projeto em ação!
+Você também pode acessar a landing page diretamente clicando [aqui](https://paulomoreiraa.github.io/Mars-LP/) para ver o projeto em ação!
 
 ## 📸 Capturas de Tela
 
