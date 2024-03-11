@@ -88,32 +88,6 @@ main{
                 font-size: .8rem;
             }
         }
-        a{
-            color: #fff;
-            text-decoration: none;
-            margin-top: 20px;
-            display: flex;
-            align-items: center;
-            font-size: 1.2rem;
-            background-color: $azul-escuroII;
-            width: 180px;
-            text-align: center;
-            padding: 10px 20px;
-            border-radius: 12px;
-            transition: .4s;
-
-            @media(max-width: 1200px){
-                font-size: 1rem;
-                padding: 5px 10px;
-                width: 140px;
-            }
-
-            &:hover{
-                margin-left: 5px;
-                transition: .4s;
-                background-color: #1a1d31;
-            }
-        }
     }
     .marte{
         width: 25%;
@@ -127,6 +101,7 @@ main{
             width: 100%;
             height: 30vh;
             justify-content: center;
+            z-index: 2;
         }
 
         img{
@@ -148,9 +123,10 @@ main{
             right: 0;
             margin-right: 15.5vw;
             margin-top: -20px;
+            z-index: 2;
 
             @media(max-width: 1200px){
-                margin-top: -280px;
+                display: none;
             }
 
             img{
@@ -172,11 +148,13 @@ main{
                 padding: 0;
                 align-items: center;
                 gap: 20px;
+                
             }
 
             a{
                 text-decoration: none;
                 transition: .4s;
+                z-index: 2;
 
                 &:hover{
                     opacity: .8;
@@ -369,6 +347,48 @@ main{
                
                 border-radius: 18px;
             }
+        }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 20vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        a{
+            text-decoration: none;
+            transition: .4s;
+
+            &:hover{
+                transform: translateY(-3px);
+                transition: .4s;
+                opacity: .7;
+            }
+
+            img{
+                width: 30px;
+            }
+        }
+    }
+    p{
+        width: 100%;
+        text-align: center;
+        color: #ff6b35;
+        font-size: 1rem;
+
+        @media(max-width: 1200px){
+            font-size: .8rem;
         }
     }
 }
