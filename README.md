@@ -9,6 +9,7 @@ A landing page oferece uma visão detalhada sobre a exploração humana de Marte
 ## 🌌 Recursos Disponíveis
 
 - **HTML, SCSS e JavaScript**: A estrutura, estilo e interatividade da página foram desenvolvidos utilizando HTML5, SCSS e JavaScript para garantir uma experiência responsiva e atraente.
+- **Rellax JS**: O Rellax JS foi utilizado para criar o efeito de paralaxe na imagem de Marte, proporcionando uma experiência visual envolvente.
 - **Imagens e Vídeos**: Recursos visuais, incluindo imagens de Marte e um vídeo emocionante capturado pelos rovers da NASA, enriquecem a experiência do usuário.
 - **Ícones Ionicons**: Ícones foram incorporados usando Ionicons para fornecer uma interface intuitiva e amigável.
 - **Scroll Reveal**: O efeito de revelação de rolagem foi implementado para adicionar uma camada adicional de interatividade à página.
