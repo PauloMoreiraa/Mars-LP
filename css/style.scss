@@ -203,7 +203,8 @@ main{
 
     .card{
         width: 60%;
-        height: 40vh;
+        height: auto;
+        min-height: 40vh;
         background-color: $azul-escuroII;
         border-radius: 18px;
         padding: 50px;
@@ -241,7 +242,8 @@ main{
 
     .card-transparent{
         width: 40%;
-        height: 40vh;
+        min-height: 40vh;
+        height: auto;
         background-color: transparent;
         display: flex;
         flex-direction: column;
